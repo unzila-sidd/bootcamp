@@ -36,5 +36,3 @@ jobs:
         run: npm install -g surge
       - name: deploying using surge
         run: surge ./ react-tutorials.surge.sh --token ${{ secrets.SURGE_TOKEN}}
-          echo Add other actions to build,
-          echo test, and deploy your project.
